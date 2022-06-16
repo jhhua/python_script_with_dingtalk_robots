@@ -4,7 +4,6 @@ from datetime import timedelta,datetime, date, time, timezone
 headers={
      'Content-Type': 'application/json'} 
 webhook = 'https://oapi.dingtalk.com/robot/send?access_token=' 
-#定义要发送的数据
 mobile = '1008611'
 time = datetime.now()
 tm = str(time)
